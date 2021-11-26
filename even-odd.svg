@@ -1,0 +1,11 @@
+<!--Created by Rick on 1/23/14.-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <!--Leaving a 'hole' to see the embedded circle via fill-rule='evenodd'. Take 'evenodd' away and circle is obscured-->
+  <!--Note that circle would ordinarily be obscured because it comes first-->
+  <circle cx="300" cy="270" r="20" stroke="black" stroke-width="8" fill="green"/>
+  <path d ="M 100,350 300,100 500,350 z M 250,320 250,220 350,220 350,320 z"
+          fill ="#ff8" stroke ="black" stroke-width ="15" fill-rule ="evenodd"/>
+
+
+</svg>
